@@ -480,11 +480,11 @@ font-family: 'Indie Flower',
 .contact_btn {
     position: relative;
     width: 200px;
-    padding: 10px 0px;
+    padding: 20px 20px 30px 30px;
     border-radius: 30px;
     color: #FFF;
     background:
-        linear-gradient(90deg, #e60cc9, #bd0372);
+        linear-gradient(90deg, #90057d, #bd0372);
     box-shadow: 8px 8px 8px rgba(11, 10, 10, 0.2);
     margin: 100px auto 0;
     text-align: center;
@@ -496,10 +496,18 @@ font-family: 'Indie Flower',
     position: absolute;
     top: 50%;
     left: 15px;
-    background: url(img/img/mailicon.svg) no-repeat;
+    background: url(../img/img/mailicon.svg) no-repeat;
     display: block;
     background-size: cover;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     transform: translateY(-50%);
+}
+
+.footer {
+    margin-top: 80px;
+    padding: 30px 30px;
+    background-color: rgb(247,243,243);
+    color: grey;
+    text-align: center;
 }
